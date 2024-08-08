@@ -264,7 +264,7 @@
     height: 700px;
 }
 
-.header-carousel .owl-nav .owl-prev,
+/**.header-carousel .owl-nav .owl-prev,
 .header-carousel .owl-nav .owl-next {
     position: absolute;
     width: 60px;
@@ -290,7 +290,7 @@
     right: 50%;
     transform: translateX(-50%);
     margin-right: 30px;
-}
+} **/
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
