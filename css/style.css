@@ -441,7 +441,7 @@
 /*** Service Start ***/
 .service .service-item {
     border-radius: 10px;
-    width: 360px;
+    width: 357px;
 }
 .service .service-item .service-img {
     position: relative;
@@ -799,8 +799,8 @@
 
 /*** Footer Start ***/
 .footer {
-    background: var(--bs-primary);
-    height: 530px;
+    background: #2f549b;
+    height: 450px;
 }
 
 .footer .footer-item {
@@ -888,7 +888,7 @@
 
 /*** copyright Start ***/
 .copyright {
-    background: var(--bs-dark);
+    background: #1f2256;
     border-top: 1px solid rgba(255, 255, 255, .08);
 }
 /*** copyright end ***/
