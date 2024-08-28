@@ -4,6 +4,28 @@
     <head>
         <meta charset="utf-8">
         <title>Manajemen S1</title>
+        <style>
+            .bg-video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -1;
+            }
+        
+            .header-carousel-item {
+                position: relative;
+                height: 100vh; /* Set height to 100% of viewport height */
+                overflow: hidden;
+            }
+        
+            .carousel-caption {
+                position: relative;
+                z-index: 2;
+            }
+        </style>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -149,20 +171,30 @@
 
 
         <!-- Carousel Start -->
-        <div class="header-carousel owl-carousel">
-            <div class="header-carousel-item bg-primary">
-                <div class="carousel-caption">
+        <div class="header-carousel">
+            <div class="header-carousel-item">
+                <!-- Video Background Start -->
+                <video autoplay muted loop playsinline class="bg-video">
+                    <source src="img/view drone 2.mp4" type="video/mp4">
+                </video>
+                <!-- Video Background End -->
+
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="container">
                         <div class="row g-4 align-items-center">
-                            
-                                <h1>video</h1>
-                            
+                            <!-- Optional Content Overlay -->
+                            <div class="col-12 text-center">
+                                <h1 class="display-4 mb-4 text-white">Selamat Datang</h1>
+                                <h1 class="display-4 mb-4 text-white">Di Program Studi Manajemen S1</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Carousel End -->
+
+
 
         <!-- Service Start -->
         <div class="container-fluid service py-5">
@@ -282,9 +314,12 @@
                                 <div class="col-md-6 col-lg-6 col-xl-5">
                                     <div class="footer-item">
                                         <a href="index.html" class="p-0">
-                                            <img src="img/logo.png" alt="Logo">
+                                            <img src="img/logo.png" alt="Logo"><br>
                                         </a>
-                                        <p class="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+                                        <p class="text-white mb-4">
+                                            Program Studi Manajemen S1 <br>
+                                            Universitas Teknologi Digital
+                                        </p>
                                         <div class="footer-btn d-flex">
                                             <a class="btn btn-md-square rounded-circle me-3" href="https://www.instagram.com/s1manajemen.digitech/"><i class="fab fa-instagram"></i></a>
                                         </div>
@@ -324,7 +359,6 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
         
 
         <!-- Template Javascript -->
