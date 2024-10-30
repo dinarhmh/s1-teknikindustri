@@ -1,3 +1,330 @@
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.biodata {
+    list-style-type: none;
+    padding: 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.biodata li {
+    margin-bottom: 10px;
+}
+
+.biodata strong {
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: black;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #1f2256;
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+ol {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+a {
+    color: #1f2256;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container utama untuk layout */
+#brxe-znwdkv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #e1e4e7;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+/* Gambar di bagian kiri */
+#brxe-oyconz {
+    position: relative; /* Ini diperlukan untuk menentukan posisi relatif kotak */
+    flex: 1;
+    text-align: center;
+    overflow: visible; /* Mengizinkan konten untuk melampaui batas kotak */
+}
+
+#brxe-oyconz img {
+    max-width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: -215px; /* Geser gambar ke atas dari kotak */
+    left: 50%;
+    transform: translateX(-50%); /* Untuk memusatkan gambar */
+}
+
+
+/* Blok teks di bagian kanan */
+#brxe-yoltuk {
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* Judul heading */
+#brxe-zeemvp {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Teks paragraf */
+#brxe-wtyavb p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Container untuk tombol */
+#brxe-vpbcqu {
+    padding-top: 15px;
+}
+
+/* Desain tombol */
+#brxe-undgzk, #brxe-pyhicb {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+#brxe-pyhicb:hover {
+    background-color: #3b66b6;
+}
+
+
+/* Untuk layar kecil */
+@media screen and (max-width: 414px) {
+    .container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #brxe-znwdkv, #brxe-yoltuk {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #brxe-znwdkv img, #brxe-yoltuk img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content {
+        padding: 1000px;
+        margin-top: 10px;
+    }
+
+    .header, .footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #brxe-vpbcqu {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 90px; /* Sama dengan posisi panah biru */
+    right: 35px; /* Atur jarak agar sejajar dengan panah biru */
+    z-index: 100; /* Tetap pastikan logo berada di atas elemen lain */
+}
+
+.whatsapp-float img {
+    width: 45px; /* Ukuran gambar logo */
+    height: 45px;
+}
+
+.whatsapp-float:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.owl-prev, .owl-next {
+    background-color: rgba(255, 255, 255, 0.7); /* Transparansi putih */
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.owl-prev:hover, .owl-next:hover {
+    background-color: #1f2256; /* Warna latar lebih terang saat hover */
+}
+
+.custom-prev-icon, .custom-next-icon {
+    font-size: 24px;
+    font-weight: bold;
+    color: black; /* Warna panah default */
+    transition: color 0.3s ease; /* Transisi smooth untuk perubahan warna */
+}
+
+
+.owl-prev {
+    position: absolute;
+    left: 10px;
+}
+
+.owl-next {
+    position: absolute;
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*** Spinner Start ***/
 #spinner {
@@ -129,6 +456,7 @@
 .nav-bar {
     background: var(--bs-white);
     transition: 1s;
+    font-size: 16px;
 }
 
 .navbar-light .navbar-brand img {
@@ -245,6 +573,7 @@
         border-radius: 10px;
         transition: .5s;
         opacity: 0;
+        font-size: 15px;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -441,7 +770,7 @@
 /*** Service Start ***/
 .service .service-item {
     border-radius: 10px;
-    width: 357px;
+    width: 360px;
 }
 .service .service-item .service-img {
     position: relative;
@@ -799,8 +1128,9 @@
 
 /*** Footer Start ***/
 .footer {
-    background: #2f549b;
+    background: #3b66b6;
     height: 450px;
+    font-size: 15px;
 }
 
 .footer .footer-item {
@@ -823,7 +1153,7 @@
 }
 
 .footer .footer-item a:hover {
-    color: var(--bs-primary);
+    color: #15223a;
 }
 
 .footer .footer-item .footer-btn a,
@@ -873,11 +1203,11 @@
 
 .footer .footer-item .footer-btn a {
     background: var(--bs-light);
-    color: var(--bs-primary);
+    color: #15223a;
 }
 
 .footer .footer-item .footer-btn a:hover {
-    background: var(--bs-primary);
+    background: #15223a;
 }
 
 .footer .footer-item .footer-btn a:hover i {
@@ -890,6 +1220,7 @@
 .copyright {
     background: #1f2256;
     border-top: 1px solid rgba(255, 255, 255, .08);
+    font-size: 15px;
 }
 /*** copyright end ***/
 
